@@ -57,6 +57,7 @@
 		DF34478B2122D5BE0056FA54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF3447972122D5E30056FA54 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		DF3447982122D5E30056FA54 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		DF34479B2122FF960056FA54 /* PodTest.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = PodTest.podspec; sourceTree = "<group>"; };
 		F9B402C23058D900E1277A2E /* Pods-PodTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-PodTest/Pods-PodTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,6 +107,7 @@
 		DF3447592122D5BE0056FA54 = {
 			isa = PBXGroup;
 			children = (
+				DF34479B2122FF960056FA54 /* PodTest.podspec */,
 				DF3447642122D5BE0056FA54 /* PodTest */,
 				DF34477D2122D5BE0056FA54 /* PodTestTests */,
 				DF3447882122D5BE0056FA54 /* PodTestUITests */,
@@ -128,12 +130,11 @@
 		DF3447642122D5BE0056FA54 /* PodTest */ = {
 			isa = PBXGroup;
 			children = (
+				DF34479A2122E4D80056FA54 /* A */,
 				DF3447652122D5BE0056FA54 /* AppDelegate.h */,
 				DF3447662122D5BE0056FA54 /* AppDelegate.m */,
 				DF3447682122D5BE0056FA54 /* ViewController.h */,
 				DF3447692122D5BE0056FA54 /* ViewController.m */,
-				DF3447972122D5E30056FA54 /* Person.h */,
-				DF3447982122D5E30056FA54 /* Person.m */,
 				DF34476B2122D5BE0056FA54 /* Main.storyboard */,
 				DF34476E2122D5BE0056FA54 /* Assets.xcassets */,
 				DF3447702122D5BE0056FA54 /* LaunchScreen.storyboard */,
@@ -159,6 +160,15 @@
 				DF34478B2122D5BE0056FA54 /* Info.plist */,
 			);
 			path = PodTestUITests;
+			sourceTree = "<group>";
+		};
+		DF34479A2122E4D80056FA54 /* A */ = {
+			isa = PBXGroup;
+			children = (
+				DF3447972122D5E30056FA54 /* Person.h */,
+				DF3447982122D5E30056FA54 /* Person.m */,
+			);
+			path = A;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
